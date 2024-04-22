@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+}
+.Home{
+   height: 0vh !important;
+}
+.Container{
+    position: relative;
+    /* background-color: aqua; */
+    height: 50px;
+}
+.Container ul{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Container ul li{
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-flex;
+    list-style: none;
+}
+.Container ul li .link{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.Container ul li .link:hover{
+    margin-bottom: 50px;
+    border-bottom: 2px solid white;
+}
+.Container ul li button{
+    margin-top: -10px;
+    height: 3rem;
+    width: 8rem;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+}
+.Container ul img{
+    position: relative;
+    left: 0rem;
+    top: -20px;
+    width: 200px;
+    height: 80px;
+}
+
+/*___________Carousel____________*/
+
+.Carousel img{
+    position:relative;
+    top: -50px;
+    z-index: -2;
+    width: 100%;
+    height: 100vh;
+}
+.Carousel .Text{
+    position: absolute;
+    left: 8rem;
+}
+.Carousel h3{
+    position: absolute;
+    left: 0rem;
+    top: -2.6rem;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: white;
+}
+.Carousel h1{
+    text-transform: uppercase;
+    position: absolute;
+    left: 0rem;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 2px;
+}
+.Carousel h1 span{
+    text-transform: uppercase;
+    color: orange;
+}
+.Carousel p{
+    position: relative;
+    top: 9rem;
+    color: white;
+}
+.Carousel .Text{
+    position: absolute;
+    top: 15rem;
+    right: 20rem;
+}
+.Carousel .Pic{
+    position: relative;
+    right: 17rem;
+    top: 11rem;
+}
+.Carousel .Pic img{
+    position: absolute;
+    right: -1rem;
+    top: -51rem;
+    z-index: 3;
+    width: 30rem;
+    height: 35rem;
+}
+.Carousel .Pic .Svg{
+    position: absolute;
+    left: 28.5rem;
+    top: -58rem;
+    width: 100rem;
+    height: 50rem;
+}
+
+/*_________Home Icons____________*/
+
+
+.Icons {
+    position:absolute;
+    top: 0rem;
+    left: 0rem;
+}
+.Icons p{
+    color: rgb(250, 109, 2);
+    filter: drop-shadow(2px 2px 2px black);
+    padding-top: 40px;
+}

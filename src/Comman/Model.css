@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+#Model{
+    position: relative;
+    top: 5rem;
+}
+.model{
+    position: relative;
+    left: -15rem;
+    width: 65rem;
+    background-color:rgb(15, 11, 37);
+}
+.Model-Body img{
+    position: absolute;
+    right: 1rem;
+    top: 0rem;
+    width: 25rem;
+    height: 21rem;
+
+}
+.text{
+    font-size: 40px;
+    color: orange;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
